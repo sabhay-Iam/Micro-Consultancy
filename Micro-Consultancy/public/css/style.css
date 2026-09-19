@@ -1,0 +1,111 @@
+/* MICRO CONSULTANCY - PROFESSIONAL BLUE THEME */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0F4C81,#2E86DE,#6DD5FA);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.container{
+    width:100%;
+    max-width:450px;
+    background:#ffffff;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.25);
+}
+
+h1{
+    text-align:center;
+    color:#0F4C81;
+    margin-bottom:10px;
+}
+
+h2{
+    text-align:center;
+    color:#444;
+    margin-bottom:25px;
+}
+
+label{
+    display:block;
+    margin-top:12px;
+    margin-bottom:5px;
+    font-weight:bold;
+    color:#333;
+}
+
+input, textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+input:focus,
+textarea:focus{
+    border-color:#0F4C81;
+    outline:none;
+}
+
+.btn{
+    width:100%;
+    padding:13px;
+    margin-top:20px;
+    background:#0F4C81;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:17px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:#08345C;
+}
+
+p{
+    text-align:center;
+    margin-top:15px;
+}
+
+a{
+    color:#0F4C81;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* Dashboard Profile Card */
+
+.profile-card{
+    background:#F4F9FF;
+    padding:20px;
+    border-radius:10px;
+    border-left:6px solid #0F4C81;
+}
+
+.profile-card h3{
+    color:#0F4C81;
+    margin-bottom:15px;
+}
+
+.profile-card p{
+    text-align:left;
+    margin:10px 0;
+}
